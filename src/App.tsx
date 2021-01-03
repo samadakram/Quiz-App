@@ -47,6 +47,15 @@ const App = () => {
       const answer = e.currentTarget.value;
 
       const correct = questions[number].correct_answer === answer;
+
+      if (correct) setScore(prev => prev + 1);
+
+      const answerObject = {
+        question: questions[number].question,
+        answer,
+        correct,
+        correctAnswer: questions[number].correct_answer,
+      }
     }
   }
 

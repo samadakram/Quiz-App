@@ -49,9 +49,11 @@ const App = () => {
   return (
     <div className="App">
       <h1>React Quiz</h1>
+      {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
       <button className="start" onClick={startTrivia}>
         Start
       </button>
+      ) : null }
       <p className="score">Score:</p>
       <p>Loading Question...</p>
       {/* <QuestionCard

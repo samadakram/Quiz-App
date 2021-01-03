@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Import Components
+import QuestionCard from './components/QuestionCard';
 
 const App = () => {
 
@@ -18,6 +19,7 @@ const App = () => {
       </button>
       <p className="score">Score:</p>
       <p>Loading Question...</p>
+      <QuestionCard />
     </div>
   );
 }

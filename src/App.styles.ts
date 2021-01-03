@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import BGImage from './images/bg.jpg';
+import Image from './images/bg.jpg';
 
 export const GlobalStyle = createGlobalStyle`
     html { 
@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        backgroud-image: url(${BGImage});
+        backgroud-image: url(${Image});
         background-size: cover;
         margin: 0;
         padding: 0 20px;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-type Props = {
+export type Props = {
     question: string;
     answers: string[];
     callback: (e: React.MouseEvent<HTMLButtonElement>) => void;

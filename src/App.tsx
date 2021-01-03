@@ -55,7 +55,8 @@ const App = () => {
         answer,
         correct,
         correctAnswer: questions[number].correct_answer,
-      }
+      };
+      setUserAnswers(prev => [...prev, answerObject])
     }
   }
 

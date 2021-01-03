@@ -57,7 +57,9 @@ const App = () => {
       {!gameOver ?
         <p className="score">Score:</p>
         : null}
-      <p>Loading Question...</p>
+      {loading ?
+        <p>Loading Question...</p>
+        : null}
       {/* <QuestionCard
         questionNr={number + 1}
         totalQuestions={TOTAL_QUESTIONS}

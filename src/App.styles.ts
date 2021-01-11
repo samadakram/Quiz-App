@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         backgroud: url(${Image});
-        background: #000000;
+        background: #E27D60;
         background-size: cover;
         margin: 0;
         padding: 0 20px;
